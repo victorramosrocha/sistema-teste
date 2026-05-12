@@ -16,7 +16,19 @@
             flex-direction: column;
         }
 
-        
+        div#user-area {
+            padding: 10px;
+        }
+
+        div#user-area > a {
+            color: black;
+            text-decoration: none;
+        }
+
+        div#user-area > a:hover {
+            color: blue;
+        }
+
         h1 {
             margin-bottom: 0;
         }
@@ -34,6 +46,10 @@
     </style>
 </head>
 <body>
+    <div id="user-area">
+        <a href="#">Login</a>
+        <a href="cadastro.php">Cadastro</a>
+    </div>
     <img src="saude_img.png" alt="logotipo de sistema de saude">
     <h1>SSB</h1>
     <h2>Sistema de diagnóstico rápido</h2>
