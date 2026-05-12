@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+main > div.main-content > section#sec0 {
+    background-color: aquamarine;
+}

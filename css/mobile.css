@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+main > div.main-content > section#sec0 {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: antiquewhite;
+}
